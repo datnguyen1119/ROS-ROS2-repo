@@ -22,6 +22,10 @@ this is inheritance in OOP
     : Node("minimal_publisher"), count_(0)
     /*
     This is the constructor. It initializes the object when it's created.
+
+    Contructor is a special function that runs automatically when an object of a class is created
+    variables are initialized, meaning they are given allocated memory and value, if not when the variable are used, its value will be a random number
+
     Node("minimal_publisher"): Calls the base class constructor (from rclcpp::Node) and assigns the name "minimal_publisher" to the node.
     count_(0): Initializes the counter to 0.
     */
