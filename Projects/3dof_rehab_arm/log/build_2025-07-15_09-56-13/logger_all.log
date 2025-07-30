@@ -1,0 +1,410 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74809b1566e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74809b1561a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74809b1561a0>>, mixin_verb=('build',))
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.175s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dat/Workspace/3dof_rehab_arm'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/can_odrive_interface' with type 'ros.ament_cmake' and name 'can_odrive_interface'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot' with type 'ros.ament_cmake' and name 'rehab_arm_robot'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_control' with type 'ros.ament_cmake' and name 'rehab_arm_robot_control'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_hardware_interface) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_hardware_interface' with type 'ros.ament_cmake' and name 'rehab_arm_robot_hardware_interface'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_moveit_config' with type 'ros.ament_cmake' and name 'rehab_arm_robot_moveit_config'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dat/Workspace/3dof_rehab_arm/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 45 installed packages in /home/dat/ws_moveit2/install
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'can_odrive_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface', 'merge_install': False, 'path': '/home/dat/Workspace/3dof_rehab_arm/src/can_odrive_interface', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot', 'merge_install': False, 'path': '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control', 'merge_install': False, 'path': '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface', 'merge_install': False, 'path': '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config', 'merge_install': False, 'path': '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.247s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot'
+[0.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dat/Workspace/3dof_rehab_arm/src/can_odrive_interface' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dat/Workspace/3dof_rehab_arm/src/can_odrive_interface'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_control' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_control'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_hardware_interface' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_hardware_interface'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface -- -j8 -l8
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot
+[0.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot)
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot' for CMake module files
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot' for CMake config files
+[0.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot', 'cmake_prefix_path')
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.sh'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/lib/pkgconfig/rehab_arm_robot.pc'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/lib/python3.10/site-packages'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.ps1'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.sh'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.bash'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.zsh'
+[0.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/colcon-core/packages/rehab_arm_robot)
+[0.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot)
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot' for CMake module files
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot' for CMake config files
+[0.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot', 'cmake_prefix_path')
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.sh'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/lib/pkgconfig/rehab_arm_robot.pc'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/lib/python3.10/site-packages'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.ps1'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.dsv'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.sh'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.bash'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.zsh'
+[0.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/colcon-core/packages/rehab_arm_robot)
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_moveit_config' with build type 'ament_cmake'
+[0.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_moveit_config'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface -- -j8 -l8
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config': CMAKE_PREFIX_PATH=/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control:/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/dat/ws_moveit2/install/moveit_runtime:/home/dat/ws_moveit2/install/moveit:/home/dat/ws_moveit2/install/moveit_planners:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner:/home/dat/ws_moveit2/install/moveit_ros_control_interface:/home/dat/ws_moveit2/install/moveit_plugins:/home/dat/ws_moveit2/install/moveit_simple_controller_manager:/home/dat/ws_moveit2/install/moveit_setup_assistant:/home/dat/ws_moveit2/install/moveit_setup_srdf_plugins:/home/dat/ws_moveit2/install/moveit_setup_core_plugins:/home/dat/ws_moveit2/install/moveit_setup_controllers:/home/dat/ws_moveit2/install/moveit_setup_app_plugins:/home/dat/ws_moveit2/install/moveit_setup_framework:/home/dat/ws_moveit2/install/moveit_servo:/home/dat/ws_moveit2/install/moveit_ros:/home/dat/ws_moveit2/install/moveit_ros_visualization:/home/dat/ws_moveit2/install/moveit_hybrid_planning:/home/dat/ws_moveit2/install/moveit_ros_planning_interface:/home/dat/ws_moveit2/install/moveit_ros_benchmarks:/home/dat/ws_moveit2/install/moveit_ros_warehouse:/home/dat/ws_moveit2/install/moveit_ros_robot_interaction:/home/dat/ws_moveit2/install/moveit_ros_perception:/home/dat/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/dat/ws_moveit2/install/moveit_ros_move_group:/home/dat/ws_moveit2/install/moveit_planners_ompl:/home/dat/ws_moveit2/install/moveit_ros_planning:/home/dat/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/dat/ws_moveit2/install/moveit_resources_prbt_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/dat/ws_moveit2/install/moveit_resources:/home/dat/ws_moveit2/install/moveit_resources_pr2_description:/home/dat/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_panda_description:/home/dat/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_fanuc_description:/home/dat/ws_moveit2/install/moveit_planners_chomp:/home/dat/ws_moveit2/install/moveit_kinematics:/home/dat/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/dat/ws_moveit2/install/chomp_motion_planner:/home/dat/ws_moveit2/install/moveit_core:/home/dat/ws_moveit2/install/moveit_msgs:/home/dat/ws_moveit2/install/moveit_common:/usr/local:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config -- -j8 -l8
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_hardware_interface)
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface' for CMake module files
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface' for CMake config files
+[0.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_hardware_interface', 'cmake_prefix_path')
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.sh'
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib'
+[0.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_hardware_interface', 'ld_library_path_lib')
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.sh'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/pkgconfig/rehab_arm_robot_hardware_interface.pc'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/python3.10/site-packages'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.bash'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.zsh'
+[0.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/colcon-core/packages/rehab_arm_robot_hardware_interface)
+[0.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_hardware_interface)
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface' for CMake module files
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface' for CMake config files
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_hardware_interface', 'cmake_prefix_path')
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/cmake_prefix_path.sh'
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib'
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_hardware_interface', 'ld_library_path_lib')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/hook/ld_library_path_lib.sh'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/pkgconfig/rehab_arm_robot_hardware_interface.pc'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/python3.10/site-packages'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.bash'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.zsh'
+[0.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/colcon-core/packages/rehab_arm_robot_hardware_interface)
+[0.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_control)
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake module files
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake config files
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_control', 'cmake_prefix_path')
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.ps1'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.sh'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/pkgconfig/rehab_arm_robot_control.pc'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/python3.10/site-packages'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.sh'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.bash'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.zsh'
+[0.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/colcon-core/packages/rehab_arm_robot_control)
+[0.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_control)
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake module files
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake config files
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_control', 'cmake_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.sh'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/pkgconfig/rehab_arm_robot_control.pc'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/python3.10/site-packages'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.sh'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.bash'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.zsh'
+[0.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/colcon-core/packages/rehab_arm_robot_control)
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control:/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/dat/ws_moveit2/install/moveit_runtime:/home/dat/ws_moveit2/install/moveit:/home/dat/ws_moveit2/install/moveit_planners:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner:/home/dat/ws_moveit2/install/moveit_ros_control_interface:/home/dat/ws_moveit2/install/moveit_plugins:/home/dat/ws_moveit2/install/moveit_simple_controller_manager:/home/dat/ws_moveit2/install/moveit_setup_assistant:/home/dat/ws_moveit2/install/moveit_setup_srdf_plugins:/home/dat/ws_moveit2/install/moveit_setup_core_plugins:/home/dat/ws_moveit2/install/moveit_setup_controllers:/home/dat/ws_moveit2/install/moveit_setup_app_plugins:/home/dat/ws_moveit2/install/moveit_setup_framework:/home/dat/ws_moveit2/install/moveit_servo:/home/dat/ws_moveit2/install/moveit_ros:/home/dat/ws_moveit2/install/moveit_ros_visualization:/home/dat/ws_moveit2/install/moveit_hybrid_planning:/home/dat/ws_moveit2/install/moveit_ros_planning_interface:/home/dat/ws_moveit2/install/moveit_ros_benchmarks:/home/dat/ws_moveit2/install/moveit_ros_warehouse:/home/dat/ws_moveit2/install/moveit_ros_robot_interaction:/home/dat/ws_moveit2/install/moveit_ros_perception:/home/dat/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/dat/ws_moveit2/install/moveit_ros_move_group:/home/dat/ws_moveit2/install/moveit_planners_ompl:/home/dat/ws_moveit2/install/moveit_ros_planning:/home/dat/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/dat/ws_moveit2/install/moveit_resources_prbt_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/dat/ws_moveit2/install/moveit_resources:/home/dat/ws_moveit2/install/moveit_resources_pr2_description:/home/dat/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_panda_description:/home/dat/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_fanuc_description:/home/dat/ws_moveit2/install/moveit_planners_chomp:/home/dat/ws_moveit2/install/moveit_kinematics:/home/dat/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/dat/ws_moveit2/install/chomp_motion_planner:/home/dat/ws_moveit2/install/moveit_core:/home/dat/ws_moveit2/install/moveit_msgs:/home/dat/ws_moveit2/install/moveit_common:/usr/local:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config -- -j8 -l8
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config': CMAKE_PREFIX_PATH=/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control:/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/dat/ws_moveit2/install/moveit_runtime:/home/dat/ws_moveit2/install/moveit:/home/dat/ws_moveit2/install/moveit_planners:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner:/home/dat/ws_moveit2/install/moveit_ros_control_interface:/home/dat/ws_moveit2/install/moveit_plugins:/home/dat/ws_moveit2/install/moveit_simple_controller_manager:/home/dat/ws_moveit2/install/moveit_setup_assistant:/home/dat/ws_moveit2/install/moveit_setup_srdf_plugins:/home/dat/ws_moveit2/install/moveit_setup_core_plugins:/home/dat/ws_moveit2/install/moveit_setup_controllers:/home/dat/ws_moveit2/install/moveit_setup_app_plugins:/home/dat/ws_moveit2/install/moveit_setup_framework:/home/dat/ws_moveit2/install/moveit_servo:/home/dat/ws_moveit2/install/moveit_ros:/home/dat/ws_moveit2/install/moveit_ros_visualization:/home/dat/ws_moveit2/install/moveit_hybrid_planning:/home/dat/ws_moveit2/install/moveit_ros_planning_interface:/home/dat/ws_moveit2/install/moveit_ros_benchmarks:/home/dat/ws_moveit2/install/moveit_ros_warehouse:/home/dat/ws_moveit2/install/moveit_ros_robot_interaction:/home/dat/ws_moveit2/install/moveit_ros_perception:/home/dat/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/dat/ws_moveit2/install/moveit_ros_move_group:/home/dat/ws_moveit2/install/moveit_planners_ompl:/home/dat/ws_moveit2/install/moveit_ros_planning:/home/dat/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/dat/ws_moveit2/install/moveit_resources_prbt_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/dat/ws_moveit2/install/moveit_resources:/home/dat/ws_moveit2/install/moveit_resources_pr2_description:/home/dat/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_panda_description:/home/dat/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_fanuc_description:/home/dat/ws_moveit2/install/moveit_planners_chomp:/home/dat/ws_moveit2/install/moveit_kinematics:/home/dat/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/dat/ws_moveit2/install/chomp_motion_planner:/home/dat/ws_moveit2/install/moveit_core:/home/dat/ws_moveit2/install/moveit_msgs:/home/dat/ws_moveit2/install/moveit_common:/usr/local:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config
+[0.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_moveit_config)
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake module files
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface:/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control:/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/dat/ws_moveit2/install/moveit_runtime:/home/dat/ws_moveit2/install/moveit:/home/dat/ws_moveit2/install/moveit_planners:/home/dat/ws_moveit2/install/pilz_industrial_motion_planner:/home/dat/ws_moveit2/install/moveit_ros_control_interface:/home/dat/ws_moveit2/install/moveit_plugins:/home/dat/ws_moveit2/install/moveit_simple_controller_manager:/home/dat/ws_moveit2/install/moveit_setup_assistant:/home/dat/ws_moveit2/install/moveit_setup_srdf_plugins:/home/dat/ws_moveit2/install/moveit_setup_core_plugins:/home/dat/ws_moveit2/install/moveit_setup_controllers:/home/dat/ws_moveit2/install/moveit_setup_app_plugins:/home/dat/ws_moveit2/install/moveit_setup_framework:/home/dat/ws_moveit2/install/moveit_servo:/home/dat/ws_moveit2/install/moveit_ros:/home/dat/ws_moveit2/install/moveit_ros_visualization:/home/dat/ws_moveit2/install/moveit_hybrid_planning:/home/dat/ws_moveit2/install/moveit_ros_planning_interface:/home/dat/ws_moveit2/install/moveit_ros_benchmarks:/home/dat/ws_moveit2/install/moveit_ros_warehouse:/home/dat/ws_moveit2/install/moveit_ros_robot_interaction:/home/dat/ws_moveit2/install/moveit_ros_perception:/home/dat/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/dat/ws_moveit2/install/moveit_ros_move_group:/home/dat/ws_moveit2/install/moveit_planners_ompl:/home/dat/ws_moveit2/install/moveit_ros_planning:/home/dat/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/dat/ws_moveit2/install/moveit_resources_prbt_support:/home/dat/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/dat/ws_moveit2/install/moveit_resources:/home/dat/ws_moveit2/install/moveit_resources_pr2_description:/home/dat/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_panda_description:/home/dat/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/dat/ws_moveit2/install/moveit_resources_fanuc_description:/home/dat/ws_moveit2/install/moveit_planners_chomp:/home/dat/ws_moveit2/install/moveit_kinematics:/home/dat/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/dat/ws_moveit2/install/chomp_motion_planner:/home/dat/ws_moveit2/install/moveit_core:/home/dat/ws_moveit2/install/moveit_msgs:/home/dat/ws_moveit2/install/moveit_common:/usr/local:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_moveit_config
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake config files
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_moveit_config', 'cmake_prefix_path')
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/pkgconfig/rehab_arm_robot_moveit_config.pc'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/python3.10/site-packages'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.ps1'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.dsv'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.bash'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.zsh'
+[0.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/colcon-core/packages/rehab_arm_robot_moveit_config)
+[0.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_moveit_config)
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake module files
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake config files
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_moveit_config', 'cmake_prefix_path')
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/pkgconfig/rehab_arm_robot_moveit_config.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/python3.10/site-packages'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/colcon-core/packages/rehab_arm_robot_moveit_config)
+[2.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface
+[2.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_odrive_interface)
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface' for CMake module files
+[2.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface' for CMake config files
+[2.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'cmake_prefix_path')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.sh'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib'
+[2.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'ld_library_path_lib')
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.dsv'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.sh'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/bin'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/pkgconfig/can_odrive_interface.pc'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/python3.10/site-packages'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/bin'
+[2.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv'
+[2.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.sh'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.bash'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.zsh'
+[2.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/colcon-core/packages/can_odrive_interface)
+[2.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_odrive_interface)
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface' for CMake module files
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface' for CMake config files
+[2.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'cmake_prefix_path')
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.ps1'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib'
+[2.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'ld_library_path_lib')
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.dsv'
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/bin'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/pkgconfig/can_odrive_interface.pc'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/python3.10/site-packages'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/bin'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.sh'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.bash'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.zsh'
+[2.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/colcon-core/packages/can_odrive_interface)
+[2.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.772s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.775s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.782s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dat/Workspace/3dof_rehab_arm/install/local_setup.ps1'
+[2.783s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dat/Workspace/3dof_rehab_arm/install/_local_setup_util_ps1.py'
+[2.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dat/Workspace/3dof_rehab_arm/install/setup.ps1'
+[2.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dat/Workspace/3dof_rehab_arm/install/local_setup.sh'
+[2.786s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dat/Workspace/3dof_rehab_arm/install/_local_setup_util_sh.py'
+[2.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dat/Workspace/3dof_rehab_arm/install/setup.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dat/Workspace/3dof_rehab_arm/install/local_setup.bash'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dat/Workspace/3dof_rehab_arm/install/setup.bash'
+[2.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dat/Workspace/3dof_rehab_arm/install/local_setup.zsh'
+[2.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dat/Workspace/3dof_rehab_arm/install/setup.zsh'

@@ -1,0 +1,39 @@
+[0.019s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target odrive_hardware_interface[0m
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[3.892s] [100%] [32m[1mLinking CXX shared library libodrive_hardware_interface.so[0m
+[4.116s] [100%] Built target odrive_hardware_interface
+[4.135s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface -- -j8 -l8
+[4.143s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface
+[4.151s] -- Install configuration: ""
+[4.152s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+[4.152s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so
+[4.152s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so" to ""
+[4.153s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface
+[4.153s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface
+[4.153s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_hardware_interface.hpp
+[4.153s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_joint.hpp
+[4.153s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.sh
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.dsv
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_hardware_interface
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_hardware_interface
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.sh
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.dsv
+[4.154s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.sh
+[4.155s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.dsv
+[4.155s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.bash
+[4.155s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.sh
+[4.155s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.zsh
+[4.155s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.dsv
+[4.156s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.dsv
+[4.156s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/packages/rehab_arm_robot_hardware_interface
+[4.156s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rehab_arm_robot_hardware_interface
+[4.158s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport.cmake
+[4.158s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport-noconfig.cmake
+[4.158s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.159s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.159s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig.cmake
+[4.159s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig-version.cmake
+[4.159s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.xml
+[4.162s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface

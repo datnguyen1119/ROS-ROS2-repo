@@ -1,0 +1,69 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found can_odrive_interface: 0.1.0 (/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake)
+-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface
+[ 50%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libodrive_hardware_interface.so[0m
+[100%] Built target odrive_hardware_interface
+-- Install configuration: ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so" to ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_hardware_interface.hpp
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_joint.hpp
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.sh
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.sh
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.sh
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.bash
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.sh
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.zsh
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/packages/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rehab_arm_robot_hardware_interface
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport-noconfig.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig-version.cmake
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.xml

@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.069s] [ 50%] Built target planning
+[0.079s] [100%] Built target state_reader
+[0.095s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.099s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control
+[0.105s] -- Install configuration: ""
+[0.105s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/state_reader
+[0.105s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/planning
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_control
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_control
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.sh
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.dsv
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.sh
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.dsv
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.bash
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.sh
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.zsh
+[0.106s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.dsv
+[0.107s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv
+[0.107s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/packages/rehab_arm_robot_control
+[0.107s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig.cmake
+[0.107s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig-version.cmake
+[0.107s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.xml
+[0.107s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_control

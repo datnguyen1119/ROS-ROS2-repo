@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-913d9c0154e54a220607.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rehab_arm_robot_hardware_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_hardware_interface-05cb79d59563aa1eb506.json",
+					"name" : "odrive_hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rehab_arm_robot_hardware_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rehab_arm_robot_hardware_interface_uninstall-8844f897710d11465846.json",
+					"name" : "rehab_arm_robot_hardware_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dbb70609d16734f64b4c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot_hardware_interface",
+		"source" : "/home/dat/Workspace/3dof_rehab_arm/src/rehab_arm_robot_hardware_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

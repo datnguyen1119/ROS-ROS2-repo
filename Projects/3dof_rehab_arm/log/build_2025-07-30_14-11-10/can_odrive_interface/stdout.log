@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target can_odrive_interface[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/can_odrive_interface.dir/src/odrive_interface.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library libcan_odrive_interface.so[0m
+[ 20%] Built target can_odrive_interface
+[35m[1mConsolidate compiler generated dependencies of target velocity_node[0m
+[35m[1mConsolidate compiler generated dependencies of target read_encoder_node[0m
+[35m[1mConsolidate compiler generated dependencies of target torque_node[0m
+[35m[1mConsolidate compiler generated dependencies of target position_node[0m
+[ 60%] [32m[1mLinking CXX executable velocity_node[0m
+[ 60%] [32m[1mLinking CXX executable position_node[0m
+[ 60%] [32m[1mLinking CXX executable read_encoder_node[0m
+[ 60%] [32m[1mLinking CXX executable torque_node[0m
+[ 80%] Built target torque_node
+[ 80%] Built target velocity_node
+[100%] Built target read_encoder_node
+[100%] Built target position_node
+-- Install configuration: ""
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/libcan_odrive_interface.so
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/libcan_odrive_interface.so" to ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/velocity_node
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/velocity_node" to ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node" to ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/torque_node
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/torque_node" to ""
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/read_encoder_node
+-- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/read_encoder_node" to ""
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface/odrive_interface.hpp
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/package_run_dependencies/can_odrive_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/parent_prefix_path/can_odrive_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.bash
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.zsh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/packages/can_odrive_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig-version.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.xml

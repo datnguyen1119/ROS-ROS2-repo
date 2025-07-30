@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="rehab_arm_robot_ros2_control" params="name initial_positions_file">
+        <xacro:property name="initial_positions" value="${load_yaml(initial_positions_file)['initial_positions']}"/>
+
+        <ros2_control name="RehabArmRobotSystem" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware. -->
+                <plugin>odrive_hardware_interface/ODriveSystemHardware</plugin>
+                <param name="joint_number">2</param>
+                <!-- <param name="joint0_name">base_joint</param> -->
+                <param name="joint1_name">shoulder_joint</param>
+                <param name="joint2_name">elbow_joint</param>
+                <!-- <param name="joint3_name">wrist_joint</param> -->
+                <!-- <param name="joint0_id">0</param> -->
+                <param name="joint1_id">0</param>
+                <param name="joint2_id">1</param>
+                <!-- <param name="joint3_id">3</param> -->
+                <param name="active_joints">shoulder_joint,elbow_joint</param>
+                <!-- <param name="loop_rate">30</param> -->
+                <param name="can_bus_name">can0</param>
+                <param name="can_bus_baudrate">500000</param>
+                <param name="control_mode">position</param>
+                <!-- <param name="device">/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0</param>
+                <param name="baud_rate">57600</param>
+                <param name="timeout_ms">1000</param>
+                <param name="enc_counts_per_rev">3436</param>
+                <param name="pid_p">20</param>
+                <param name="pid_d">12</param>
+                <param name="pid_i">0</param>
+                <param name="pid_o">50</param> -->
+            </hardware>
+
+            <!-- <joint name="base_joint">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['base_joint']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint> -->
+            <joint name="shoulder_joint">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <!-- <param name="initial_value">${initial_positions['shoulder_joint']}</param> -->
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="elbow_joint">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <!-- <param name="initial_value">${initial_positions['elbow_joint']}</param> -->
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <!-- <joint name="wrist_joint">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['wrist_joint']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint> -->
+
+        </ros2_control>
+    </xacro:macro>
+</robot>

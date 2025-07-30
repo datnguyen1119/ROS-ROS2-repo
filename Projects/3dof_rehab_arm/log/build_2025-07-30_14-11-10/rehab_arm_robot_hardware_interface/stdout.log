@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target odrive_hardware_interface[0m
+[100%] Built target odrive_hardware_interface
+-- Install configuration: ""
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_hardware_interface.hpp
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/include/rehab_arm_robot_hardware_interface/rehab_arm_robot_hardware_interface/odrive_joint.hpp
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/library_path.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/environment/path.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.bash
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.sh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.zsh
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/local_setup.dsv
+-- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.dsv
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/packages/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rehab_arm_robot_hardware_interface
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/export_odrive_hardware_interfaceExport-noconfig.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/cmake/rehab_arm_robot_hardware_interfaceConfig-version.cmake
+-- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/package.xml

@@ -1,0 +1,5 @@
+<library path="odrive_hardware_interface">
+  <class name="odrive_hardware_interface/ODriveSystemHardware"
+         type="odrive_hardware_interface::ODriveSystemHardware"
+         base_class_type="hardware_interface::SystemInterface"/>
+</library>

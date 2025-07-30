@@ -1,0 +1,523 @@
+Script started on 2025-07-14 23:37:55+07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+
+ros2 launch rehab_arm_robot_moveit_config bringup2.launch.py 
+
+[INFO] [launch]: All log files can be found below /home/dat/.ros/log/2025-07-14-23-38-56-532477-dat-ASUS-14387
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.[0m
+[INFO] [move_group-1]: process started with pid [14388]
+[INFO] [rviz2-2]: process started with pid [14390]
+[INFO] [static_transform_publisher-3]: process started with pid [14392]
+[INFO] [robot_state_publisher-4]: process started with pid [14394]
+[INFO] [ros2_control_node-5]: process started with pid [14396]
+[INFO] [spawner-6]: process started with pid [14398]
+[INFO] [spawner-7]: process started with pid [14400]
+[static_transform_publisher-3] [WARN] [1752511136.670458516] []: Old-style arguments are deprecated; see --help for new-style arguments
+[ros2_control_node-5] [DEBUG] [1752511136.679029928] [rclcpp]: signal handler installed
+[ros2_control_node-5] [DEBUG] [1752511136.679113322] [rcl]: Initializing wait set with '0' subscriptions, '2' guard conditions, '0' timers, '0' clients, '0' services
+[ros2_control_node-5] [DEBUG] [1752511136.679186558] [rcl]: Initializing node 'controller_manager' in namespace ''
+[ros2_control_node-5] [DEBUG] [1752511136.679198447] [rcl]: Using domain ID of '0'
+[static_transform_publisher-3] [INFO] [1752511136.683316600] [static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'world' to 'base_link'
+[ros2_control_node-5] [DEBUG] [1752511136.685556318] [rcl]: Initializing publisher for topic name '/rosout'
+[ros2_control_node-5] [DEBUG] [1752511136.685590295] [rcl]: Expanded and remapped topic name '/rosout'
+[ros2_control_node-5] [DEBUG] [1752511136.686556428] [rcl]: Publisher initialized
+[ros2_control_node-5] [DEBUG] [1752511136.686576409] [rcl]: Node initialized
+[ros2_control_node-5] [DEBUG] [1752511136.680210224] [rclcpp]: deferred_signal_handler(): waiting for SIGINT/SIGTERM or uninstall
+[ros2_control_node-5] [DEBUG] [1752511136.686842455] [rcl]: Initializing service for service name 'controller_manager/get_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.686850614] [rcl]: Expanded and remapped service name '/controller_manager/get_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.687336596] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.687347346] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/get_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.687350944] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/get_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.687354050] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.687384682] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.687407222] [rcl]: Initializing service for service name 'controller_manager/get_parameter_types'
+[ros2_control_node-5] [DEBUG] [1752511136.687413443] [rcl]: Expanded and remapped service name '/controller_manager/get_parameter_types'
+[ros2_control_node-5] [DEBUG] [1752511136.687659241] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.687667335] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/get_parameter_typesRequest
+[ros2_control_node-5] [DEBUG] [1752511136.687670829] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/get_parameter_typesReply
+[ros2_control_node-5] [DEBUG] [1752511136.687673839] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.687689514] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.687702403] [rcl]: Initializing service for service name 'controller_manager/set_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.687707944] [rcl]: Expanded and remapped service name '/controller_manager/set_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.687875960] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.687880887] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/set_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.687884123] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/set_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.687887220] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.687900169] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.687908825] [rcl]: Initializing service for service name 'controller_manager/set_parameters_atomically'
+[ros2_control_node-5] [DEBUG] [1752511136.687914919] [rcl]: Expanded and remapped service name '/controller_manager/set_parameters_atomically'
+[ros2_control_node-5] [DEBUG] [1752511136.688081200] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.688086804] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/set_parameters_atomicallyRequest
+[ros2_control_node-5] [DEBUG] [1752511136.688090082] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/set_parameters_atomicallyReply
+[ros2_control_node-5] [DEBUG] [1752511136.688093113] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.688105561] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.688115480] [rcl]: Initializing service for service name 'controller_manager/describe_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.688121012] [rcl]: Expanded and remapped service name '/controller_manager/describe_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.688288318] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.688293471] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/describe_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.688296628] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/describe_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.688299702] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.688315667] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.688324377] [rcl]: Initializing service for service name 'controller_manager/list_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.688346049] [rcl]: Expanded and remapped service name '/controller_manager/list_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.688519686] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.688524969] [rmw_fastrtps_cpp]: Sub Topic rq/controller_manager/list_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.688528056] [rmw_fastrtps_cpp]: Pub Topic rr/controller_manager/list_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.688531041] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.688544971] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.688560523] [rcl]: Initializing publisher for topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.688567458] [rcl]: Expanded and remapped topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.689336272] [rcl]: Publisher initialized
+[ros2_control_node-5] [DEBUG] [1752511136.689572428] [rcl]: Initializing subscription for topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.689579732] [rcl]: Expanded and remapped topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.689724051] [rcl]: Subscription initialized
+[ros2_control_node-5] [DEBUG] [1752511136.689844884] [pluginlib.ClassLoader]: Creating ClassLoader, base = hardware_interface::ActuatorInterface, address = 0x64b567976810
+[ros2_control_node-5] [DEBUG] [1752511136.690827422] [pluginlib.ClassLoader]: Entering determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.690834027] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/mock_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.690918243] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = mock_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.690923880] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/fake_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.690961787] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = fake_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.690965860] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.691116761] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSingleJointActuator.
+[ros2_control_node-5] [DEBUG] [1752511136.691126588] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestForceTorqueSensor.
+[ros2_control_node-5] [DEBUG] [1752511136.691130598] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestTwoJointSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.691134548] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSystemCommandModes.
+[ros2_control_node-5] [DEBUG] [1752511136.691138601] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface_testing/test/test_components/test_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.691198157] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.691203798] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.691207530] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_system.
+[ros2_control_node-5] [DEBUG] [1752511136.691211219] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.691216594] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.691220342] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_system.
+[ros2_control_node-5] [DEBUG] [1752511136.691224484] [pluginlib.ClassLoader]: Processing xml file /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.691267857] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = odrive_hardware_interface/ODriveSystemHardware.
+[ros2_control_node-5] [DEBUG] [1752511136.691271935] [pluginlib.ClassLoader]: Exiting determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.691288957] [pluginlib.ClassLoader]: Finished constructring ClassLoader, base = hardware_interface::ActuatorInterface, address = 0x64b567976810
+[ros2_control_node-5] [DEBUG] [1752511136.691294912] [pluginlib.ClassLoader]: Creating ClassLoader, base = hardware_interface::SensorInterface, address = 0x64b5679768d0
+[ros2_control_node-5] [DEBUG] [1752511136.692130135] [pluginlib.ClassLoader]: Entering determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.692136393] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/mock_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.692180067] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = mock_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.692184813] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/fake_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.692220326] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = fake_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.692224803] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.692277398] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSingleJointActuator.
+[ros2_control_node-5] [DEBUG] [1752511136.692281828] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestForceTorqueSensor.
+[ros2_control_node-5] [DEBUG] [1752511136.692286793] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestTwoJointSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.692290644] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSystemCommandModes.
+[ros2_control_node-5] [DEBUG] [1752511136.692294658] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface_testing/test/test_components/test_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.692345355] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.692349955] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.692354521] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_system.
+[ros2_control_node-5] [DEBUG] [1752511136.692358337] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.692362214] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.692367112] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_system.
+[ros2_control_node-5] [DEBUG] [1752511136.692371117] [pluginlib.ClassLoader]: Processing xml file /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.692413061] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = odrive_hardware_interface/ODriveSystemHardware.
+[ros2_control_node-5] [DEBUG] [1752511136.692417102] [pluginlib.ClassLoader]: Exiting determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.692420288] [pluginlib.ClassLoader]: Finished constructring ClassLoader, base = hardware_interface::SensorInterface, address = 0x64b5679768d0
+[ros2_control_node-5] [DEBUG] [1752511136.692424559] [pluginlib.ClassLoader]: Creating ClassLoader, base = hardware_interface::SystemInterface, address = 0x64b567976990
+[ros2_control_node-5] [DEBUG] [1752511136.693329043] [pluginlib.ClassLoader]: Entering determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.693348181] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/mock_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.693406149] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = mock_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.693413973] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/fake_components_plugin_description.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.693472732] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = fake_components/GenericSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.693478839] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.693535010] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSingleJointActuator.
+[ros2_control_node-5] [DEBUG] [1752511136.693540249] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestForceTorqueSensor.
+[ros2_control_node-5] [DEBUG] [1752511136.693544131] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestTwoJointSystem.
+[ros2_control_node-5] [DEBUG] [1752511136.693548814] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_hardware_components/TestSystemCommandModes.
+[ros2_control_node-5] [DEBUG] [1752511136.693558443] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/hardware_interface_testing/test/test_components/test_components.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.693619257] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.693624636] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.693628366] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_system.
+[ros2_control_node-5] [DEBUG] [1752511136.693632697] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_actuator.
+[ros2_control_node-5] [DEBUG] [1752511136.693636626] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_sensor.
+[ros2_control_node-5] [DEBUG] [1752511136.693640375] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = test_unitilizable_system.
+[ros2_control_node-5] [DEBUG] [1752511136.693645891] [pluginlib.ClassLoader]: Processing xml file /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/share/rehab_arm_robot_hardware_interface/odrive_hardware_interface.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.693692886] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = odrive_hardware_interface/ODriveSystemHardware.
+[ros2_control_node-5] [DEBUG] [1752511136.693698325] [pluginlib.ClassLoader]: Exiting determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.693701701] [pluginlib.ClassLoader]: Finished constructring ClassLoader, base = hardware_interface::SystemInterface, address = 0x64b567976990
+[ros2_control_node-5] [DEBUG] [1752511136.693746790] [pluginlib.ClassLoader]: Creating ClassLoader, base = controller_interface::ControllerInterface, address = 0x64b567977e30
+[ros2_control_node-5] [DEBUG] [1752511136.698336557] [pluginlib.ClassLoader]: Entering determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.698359476] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/ackermann_steering_controller/ackermann_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698456148] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = ackermann_steering_controller/AckermannSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.698462644] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/admittance_controller/admittance_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698511556] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = admittance_controller/AdmittanceController.
+[ros2_control_node-5] [DEBUG] [1752511136.698515992] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/bicycle_steering_controller/bicycle_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698558381] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = bicycle_steering_controller/BicycleSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.698562526] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller/test_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698622690] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller.
+[ros2_control_node-5] [DEBUG] [1752511136.698630573] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698707255] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller_failed_init.
+[ros2_control_node-5] [DEBUG] [1752511136.698712698] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698767632] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_chainable_controller.
+[ros2_control_node-5] [DEBUG] [1752511136.698771755] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698826269] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller_with_interfaces.
+[ros2_control_node-5] [DEBUG] [1752511136.698830916] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/diff_drive_controller/diff_drive_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698874102] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = diff_drive_controller/DiffDriveController.
+[ros2_control_node-5] [DEBUG] [1752511136.698879461] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/effort_controllers/effort_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698918330] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = effort_controllers/JointGroupEffortController.
+[ros2_control_node-5] [DEBUG] [1752511136.698923486] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.698963835] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.698968728] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/forward_command_controller/forward_command_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699009763] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = forward_command_controller/ForwardCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.699015181] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = forward_command_controller/MultiInterfaceForwardCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.699020285] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/gpio_controllers/gpio_controllers_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699059994] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = gpio_controllers/GpioCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.699073379] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/gripper_controllers/ros_control_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699120561] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = position_controllers/GripperActionController.
+[ros2_control_node-5] [DEBUG] [1752511136.699126159] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = effort_controllers/GripperActionController.
+[ros2_control_node-5] [DEBUG] [1752511136.699132661] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/imu_sensor_broadcaster/imu_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699172964] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = imu_sensor_broadcaster/IMUSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.699179266] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/joint_state_broadcaster/joint_state_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699225015] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = joint_state_broadcaster/JointStateBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.699230955] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/joint_trajectory_controller/joint_trajectory_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699274672] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = joint_trajectory_controller/JointTrajectoryController.
+[ros2_control_node-5] [DEBUG] [1752511136.699280032] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/mecanum_drive_controller/mecanum_drive_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699337994] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = mecanum_drive_controller/MecanumDriveController.
+[ros2_control_node-5] [DEBUG] [1752511136.699342371] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/pid_controller/pid_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699384527] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = pid_controller/PidController.
+[ros2_control_node-5] [DEBUG] [1752511136.699388603] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/pose_broadcaster/pose_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699429667] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = pose_broadcaster/PoseBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.699434615] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/position_controllers/position_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699474107] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = position_controllers/JointGroupPositionController.
+[ros2_control_node-5] [DEBUG] [1752511136.699478842] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/range_sensor_broadcaster/range_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699520490] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = range_sensor_broadcaster/RangeSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.699525344] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/tricycle_controller/tricycle_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699567842] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = tricycle_controller/TricycleController.
+[ros2_control_node-5] [DEBUG] [1752511136.699572542] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/tricycle_steering_controller/tricycle_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699615394] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = tricycle_steering_controller/TricycleSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.699619733] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/velocity_controllers/velocity_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.699658649] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = velocity_controllers/JointGroupVelocityController.
+[ros2_control_node-5] [DEBUG] [1752511136.699664025] [pluginlib.ClassLoader]: Exiting determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.699667756] [pluginlib.ClassLoader]: Finished constructring ClassLoader, base = controller_interface::ControllerInterface, address = 0x64b567977e30
+[ros2_control_node-5] [DEBUG] [1752511136.699673824] [pluginlib.ClassLoader]: Creating ClassLoader, base = controller_interface::ChainableControllerInterface, address = 0x64b567979100
+[ros2_control_node-5] [DEBUG] [1752511136.705324699] [pluginlib.ClassLoader]: Entering determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.705348119] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/ackermann_steering_controller/ackermann_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705413002] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = ackermann_steering_controller/AckermannSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.705418935] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/admittance_controller/admittance_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705463891] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = admittance_controller/AdmittanceController.
+[ros2_control_node-5] [DEBUG] [1752511136.705468581] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/bicycle_steering_controller/bicycle_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705505333] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = bicycle_steering_controller/BicycleSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.705509830] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller/test_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705560142] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller.
+[ros2_control_node-5] [DEBUG] [1752511136.705582028] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705631822] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller_failed_init.
+[ros2_control_node-5] [DEBUG] [1752511136.705635416] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705681206] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_chainable_controller.
+[ros2_control_node-5] [DEBUG] [1752511136.705685807] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705732071] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = controller_manager/test_controller_with_interfaces.
+[ros2_control_node-5] [DEBUG] [1752511136.705735536] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/diff_drive_controller/diff_drive_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705772745] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = diff_drive_controller/DiffDriveController.
+[ros2_control_node-5] [DEBUG] [1752511136.705775995] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/effort_controllers/effort_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705809449] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = effort_controllers/JointGroupEffortController.
+[ros2_control_node-5] [DEBUG] [1752511136.705812620] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705847506] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.705850791] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/forward_command_controller/forward_command_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705885329] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = forward_command_controller/ForwardCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.705889442] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = forward_command_controller/MultiInterfaceForwardCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.705892705] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/gpio_controllers/gpio_controllers_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705926686] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = gpio_controllers/GpioCommandController.
+[ros2_control_node-5] [DEBUG] [1752511136.705930724] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/gripper_controllers/ros_control_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.705966568] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = position_controllers/GripperActionController.
+[ros2_control_node-5] [DEBUG] [1752511136.705970428] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = effort_controllers/GripperActionController.
+[ros2_control_node-5] [DEBUG] [1752511136.705973598] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/imu_sensor_broadcaster/imu_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706007393] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = imu_sensor_broadcaster/IMUSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.706010501] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/joint_state_broadcaster/joint_state_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706045163] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = joint_state_broadcaster/JointStateBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.706049021] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/joint_trajectory_controller/joint_trajectory_plugin.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706086961] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = joint_trajectory_controller/JointTrajectoryController.
+[ros2_control_node-5] [DEBUG] [1752511136.706098869] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/mecanum_drive_controller/mecanum_drive_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706135027] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = mecanum_drive_controller/MecanumDriveController.
+[ros2_control_node-5] [DEBUG] [1752511136.706139449] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/pid_controller/pid_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706174323] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = pid_controller/PidController.
+[ros2_control_node-5] [DEBUG] [1752511136.706178662] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/pose_broadcaster/pose_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706211610] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = pose_broadcaster/PoseBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.706214787] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/position_controllers/position_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706247188] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = position_controllers/JointGroupPositionController.
+[ros2_control_node-5] [DEBUG] [1752511136.706250478] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/range_sensor_broadcaster/range_sensor_broadcaster.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706283579] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = range_sensor_broadcaster/RangeSensorBroadcaster.
+[ros2_control_node-5] [DEBUG] [1752511136.706286800] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/tricycle_controller/tricycle_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706320740] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = tricycle_controller/TricycleController.
+[ros2_control_node-5] [DEBUG] [1752511136.706323932] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/tricycle_steering_controller/tricycle_steering_controller.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706357894] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = tricycle_steering_controller/TricycleSteeringController.
+[ros2_control_node-5] [DEBUG] [1752511136.706362022] [pluginlib.ClassLoader]: Processing xml file /opt/ros/humble/share/velocity_controllers/velocity_controllers_plugins.xml...
+[ros2_control_node-5] [DEBUG] [1752511136.706394446] [pluginlib.ClassLoader]: XML file specifies lookup name (i.e. magic name) = velocity_controllers/JointGroupVelocityController.
+[ros2_control_node-5] [DEBUG] [1752511136.706398179] [pluginlib.ClassLoader]: Exiting determineAvailableClasses()...
+[ros2_control_node-5] [DEBUG] [1752511136.706401458] [pluginlib.ClassLoader]: Finished constructring ClassLoader, base = controller_interface::ChainableControllerInterface, address = 0x64b567979100
+[ros2_control_node-5] [WARN] [1752511136.706430942] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[ros2_control_node-5] [INFO] [1752511136.706585644] [resource_manager]: Loading hardware 'RehabArmRobotSystem' 
+[ros2_control_node-5] [DEBUG] [1752511136.706590490] [pluginlib.ClassLoader]: Attempting to create UNMANAGED instance for class odrive_hardware_interface/ODriveSystemHardware.
+[ros2_control_node-5] [DEBUG] [1752511136.706596779] [pluginlib.ClassLoader]: Class odrive_hardware_interface/ODriveSystemHardware maps to library odrive_hardware_interface in classes_available_.
+[ros2_control_node-5] [DEBUG] [1752511136.706703468] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706707600] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706710454] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706713206] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706721178] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706724223] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706727022] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706729612] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706732354] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706735016] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706738053] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706740817] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706743481] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706746097] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706748855] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706752364] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706755114] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706757917] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706760761] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706763459] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706766074] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706768758] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706773925] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706776700] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706779334] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706782572] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706785416] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706788078] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706790860] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706793616] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706796520] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706799306] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706802641] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706805348] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706807915] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706810658] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706813089] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706815806] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706821201] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706823950] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib64/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706826706] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706829547] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706832292] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/libodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706834915] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interface.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706837516] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706840218] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706842887] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/libodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706846043] [pluginlib.ClassLoader]: [search path for 'odrive_hardware_interface']: '/home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/bin/rehab_arm_robot_hardware_interface/liblibodrive_hardware_interfaced.so'
+[ros2_control_node-5] [DEBUG] [1752511136.706849285] [pluginlib.ClassLoader]: Iterating through all possible paths where odrive_hardware_interface could be located...
+[ros2_control_node-5] [DEBUG] [1752511136.706852401] [pluginlib.ClassLoader]: Checking path /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so 
+[ros2_control_node-5] [DEBUG] [1752511136.706859389] [pluginlib.ClassLoader]: Library odrive_hardware_interface found at explicit path /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_hardware_interface/lib/libodrive_hardware_interface.so.
+[ros2_control_node-5] [DEBUG] [1752511136.707430627] [pluginlib.ClassLoader]: Attempting to create instance through low level multi-library class loader.
+[ros2_control_node-5] [DEBUG] [1752511136.707442950] [pluginlib.ClassLoader]: odrive_hardware_interface/ODriveSystemHardware maps to real class type odrive_hardware_interface::ODriveSystemHardware
+[ros2_control_node-5] [DEBUG] [1752511136.707520792] [pluginlib.ClassLoader]: Instance of type odrive_hardware_interface::ODriveSystemHardware created.
+[ros2_control_node-5] [INFO] [1752511136.707544885] [resource_manager]: Initialize hardware 'RehabArmRobotSystem' 
+[ros2_control_node-5] [DEBUG] [1752511136.707879803] [rcl]: Initializing node 'odrive_interface' in namespace ''
+[ros2_control_node-5] [DEBUG] [1752511136.707889372] [rcl]: Using domain ID of '0'
+[ros2_control_node-5] [DEBUG] [1752511136.707943782] [rcl]: Initializing publisher for topic name '/rosout'
+[ros2_control_node-5] [DEBUG] [1752511136.707951693] [rcl]: Expanded and remapped topic name '/rosout'
+[ros2_control_node-5] [DEBUG] [1752511136.708171166] [rcl]: Publisher initialized
+[ros2_control_node-5] [DEBUG] [1752511136.708178132] [rcl]: Node initialized
+[ros2_control_node-5] [DEBUG] [1752511136.708303534] [rcl]: Initializing service for service name 'odrive_interface/get_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.708309804] [rcl]: Expanded and remapped service name '/odrive_interface/get_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.708583868] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.708590983] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/get_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.708593799] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/get_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.708596312] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.708676363] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.708688965] [rcl]: Initializing service for service name 'odrive_interface/get_parameter_types'
+[ros2_control_node-5] [DEBUG] [1752511136.708694537] [rcl]: Expanded and remapped service name '/odrive_interface/get_parameter_types'
+[ros2_control_node-5] [DEBUG] [1752511136.708985595] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.708994909] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/get_parameter_typesRequest
+[ros2_control_node-5] [DEBUG] [1752511136.708998522] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/get_parameter_typesReply
+[ros2_control_node-5] [DEBUG] [1752511136.709001336] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.709048665] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.709059086] [rcl]: Initializing service for service name 'odrive_interface/set_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.709070031] [rcl]: Expanded and remapped service name '/odrive_interface/set_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.709420993] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.709428042] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/set_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.709431171] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/set_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.709434118] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.709482682] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.709492370] [rcl]: Initializing service for service name 'odrive_interface/set_parameters_atomically'
+[ros2_control_node-5] [DEBUG] [1752511136.709498127] [rcl]: Expanded and remapped service name '/odrive_interface/set_parameters_atomically'
+[ros2_control_node-5] [DEBUG] [1752511136.709864861] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.709872440] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/set_parameters_atomicallyRequest
+[ros2_control_node-5] [DEBUG] [1752511136.709875549] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/set_parameters_atomicallyReply
+[ros2_control_node-5] [DEBUG] [1752511136.709878386] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.709929322] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.709939072] [rcl]: Initializing service for service name 'odrive_interface/describe_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.709944868] [rcl]: Expanded and remapped service name '/odrive_interface/describe_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.710392647] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.710400200] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/describe_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.710410514] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/describe_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.710413512] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.710460393] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.710470007] [rcl]: Initializing service for service name 'odrive_interface/list_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.710475535] [rcl]: Expanded and remapped service name '/odrive_interface/list_parameters'
+[ros2_control_node-5] [DEBUG] [1752511136.710900306] [rmw_fastrtps_cpp]: ************ Service Details *********
+[ros2_control_node-5] [DEBUG] [1752511136.710907252] [rmw_fastrtps_cpp]: Sub Topic rq/odrive_interface/list_parametersRequest
+[ros2_control_node-5] [DEBUG] [1752511136.710910147] [rmw_fastrtps_cpp]: Pub Topic rr/odrive_interface/list_parametersReply
+[ros2_control_node-5] [DEBUG] [1752511136.710912956] [rmw_fastrtps_cpp]: ***********
+[ros2_control_node-5] [DEBUG] [1752511136.710999767] [rcl]: Service initialized
+[ros2_control_node-5] [DEBUG] [1752511136.711012134] [rcl]: Initializing publisher for topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.711018202] [rcl]: Expanded and remapped topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.711444988] [rcl]: Publisher initialized
+[ros2_control_node-5] [DEBUG] [1752511136.711597533] [rcl]: Initializing subscription for topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.711605771] [rcl]: Expanded and remapped topic name '/parameter_events'
+[ros2_control_node-5] [DEBUG] [1752511136.712166916] [rcl]: Subscription initialized
+[ros2_control_node-5] [INFO] [1752511136.712398636] [odrive_interface]: ODrive Interface Initialized!
+[ros2_control_node-5] [ERROR] [1752511136.712583217] [odrive_interface]: Không thể lấy chỉ mục CAN interface!
+[ros2_control_node-5] [DEBUG] [1752511136.712609303] [rcl]: Shutting down ROS client library, for context at address: 0x64b56766d250
+[ros2_control_node-5] [DEBUG] [1752511136.712621547] [rcl]: Finalizing publisher
+[ros2_control_node-5] [DEBUG] [1752511136.712979022] [rcl]: Publisher finalized
+[ros2_control_node-5] [DEBUG] [1752511136.712985813] [rcl]: Finalizing publisher
+[ros2_control_node-5] [DEBUG] [1752511136.713263596] [rcl]: Publisher finalized
+[ros2_control_node-5] [DEBUG] [1752511136.713303874] [rclcpp]: SignalHandler::uninstall(): notifying deferred signal handler
+[ros2_control_node-5] [DEBUG] [1752511136.713316404] [rclcpp]: deferred_signal_handler(): woken up due to SIGINT/SIGTERM or uninstall
+[ros2_control_node-5] [DEBUG] [1752511136.713321842] [rclcpp]: deferred_signal_handler(): signal handling uninstalled
+[ros2_control_node-5] [DEBUG] [1752511136.713367450] [rclcpp]: signal handler uninstalled
+[ros2_control_node-5] [INFO] [1752511136.713445379] [odrive_interface]: Initializing Node 1 with Position Control Mode
+[ros2_control_node-5] [ERROR] [1752511136.713455509] [odrive_interface]: Lỗi gửi frame CAN cho node 1, cmd_id 0x07!
+[ros2_control_node-5] [ERROR] [1752511136.713458643] [odrive_interface]: Failed to set AXIS_STATE_IDLE for Node 1
+[ros2_control_node-5] [ERROR] [1752511136.713460986] [odrive_interface]: Lỗi gửi lệnh Set_Controller_Modes cho Node 1!
+[ros2_control_node-5] [INFO] [1752511136.713468872] [ODriveSystemHardware]: Initialized joint shoulder_joint with node_id 1
+[ros2_control_node-5] [INFO] [1752511136.713471617] [odrive_interface]: Initializing Node 2 with Position Control Mode
+[ros2_control_node-5] [ERROR] [1752511136.713473879] [odrive_interface]: Lỗi gửi frame CAN cho node 2, cmd_id 0x07!
+[ros2_control_node-5] [ERROR] [1752511136.713475909] [odrive_interface]: Failed to set AXIS_STATE_IDLE for Node 2
+[ros2_control_node-5] [ERROR] [1752511136.713478012] [odrive_interface]: Lỗi gửi lệnh Set_Controller_Modes cho Node 2!
+[ros2_control_node-5] [INFO] [1752511136.713480233] [ODriveSystemHardware]: Initialized joint elbow_joint with node_id 2
+[ros2_control_node-5] [INFO] [1752511136.713496925] [resource_manager]: Successful initialization of hardware 'RehabArmRobotSystem'
+[ros2_control_node-5] [INFO] [1752511136.713551519] [ODriveSystemHardware]: Exported state interfaces for joint shoulder_joint
+[ros2_control_node-5] [INFO] [1752511136.713555923] [ODriveSystemHardware]: Exported state interfaces for joint elbow_joint
+[ros2_control_node-5] [INFO] [1752511136.713598218] [ODriveSystemHardware]: Exported command interface for joint shoulder_joint
+[ros2_control_node-5] [INFO] [1752511136.713611341] [ODriveSystemHardware]: Exported command interface for joint elbow_joint
+[ros2_control_node-5] [INFO] [1752511136.713646147] [resource_manager]: 'configure' hardware '' 
+[ros2_control_node-5] [INFO] [1752511136.713650008] [ODriveSystemHardware]: Configuring hardware interface
+[ros2_control_node-5] [INFO] [1752511136.713654130] [resource_manager]: Successful 'configure' of hardware ''
+[ros2_control_node-5] [DEBUG] [1752511136.713657030] [resource_manager]: (hardware ''): 'shoulder_joint/position' state interface added into available list
+[ros2_control_node-5] [DEBUG] [1752511136.713659517] [resource_manager]: (hardware ''): 'shoulder_joint/velocity' state interface added into available list
+[ros2_control_node-5] [DEBUG] [1752511136.713661597] [resource_manager]: (hardware ''): 'elbow_joint/position' state interface added into available list
+[ros2_control_node-5] [DEBUG] [1752511136.713663541] [resource_manager]: (hardware ''): 'elbow_joint/velocity' state interface added into available list
+[ros2_control_node-5] [DEBUG] [1752511136.713665093] [resource_manager]: (hardware ''): 'shoulder_joint/position' command interface added into available list
+[ros2_control_node-5] [DEBUG] [1752511136.713666964] [resource_manager]: (hardware ''): 'elbow_joint/position' command interface added into available list
+[ros2_control_node-5] [INFO] [1752511136.713668830] [resource_manager]: 'activate' hardware '' 
+[ros2_control_node-5] [INFO] [1752511136.713677248] [ODriveSystemHardware]: Activated control for joint shoulder_joint
+[ros2_control_node-5] [INFO] [1752511136.713680778] [ODriveSystemHardware]: Activated control for joint elbow_joint
+[ros2_control_node-5] [INFO] [1752511136.713684423] [resource_manager]: Successful 'activate' of hardware ''
+[ros2_control_node-5] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+[ros2_control_node-5]   what():  could not create service: rcl node's context is invalid, at ./src/rcl/node.c:428
+[ros2_control_node-5] Stack trace (most recent call last):
+[ros2_control_node-5] #15   Object "", at 0xffffffffffffffff, in 
+[ros2_control_node-5] #14   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x64b5527e5ee4, in 
+[robot_state_publisher-4] [INFO] [1752511136.716126189] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1752511136.716227539] [robot_state_publisher]: got segment dummy_link
+[robot_state_publisher-4] [INFO] [1752511136.716235863] [robot_state_publisher]: got segment fake_hand_link
+[robot_state_publisher-4] [INFO] [1752511136.716240850] [robot_state_publisher]: got segment lower_arm_link
+[robot_state_publisher-4] [INFO] [1752511136.716245775] [robot_state_publisher]: got segment shoulder_link
+[robot_state_publisher-4] [INFO] [1752511136.716251213] [robot_state_publisher]: got segment upper_arm_link
+[robot_state_publisher-4] [INFO] [1752511136.716264114] [robot_state_publisher]: got segment world
+[ros2_control_node-5] #13   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x72d6ea629e3f]
+[ros2_control_node-5] #12   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x72d6ea629d8f]
+[ros2_control_node-5] #11   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x64b5527e53e3, in 
+[ros2_control_node-5] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x72d6eaf15752, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-5] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x72d6eaf1667b, in controller_manager::ControllerManager::init_services()
+[ros2_control_node-5] #8    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x72d6eaf56f1b, in 
+[ros2_control_node-5] #7    Object "/opt/ros/humble/lib/librclcpp.so", at 0x72d6ead47208, in rclcpp::exceptions::throw_from_rcl_error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcutils_error_state_s const*, void (*)())
+[ros2_control_node-5] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x72d6eaaae1fd, in std::rethrow_exception(std::__exception_ptr::exception_ptr)
+[ros2_control_node-5] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x72d6eaaae276, in std::terminate()
+[ros2_control_node-5] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x72d6eaaae20b, in 
+[ros2_control_node-5] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x72d6eaaa2b9d, in 
+[ros2_control_node-5] #2    Source "./stdlib/abort.c", line 79, in abort [0x72d6ea6287f2]
+[ros2_control_node-5] #1    Source "../sysdeps/posix/raise.c", line 26, in raise [0x72d6ea642475]
+[ros2_control_node-5] #0  | Source "./nptl/pthread_kill.c", line 89, in __pthread_kill_internal
+[ros2_control_node-5]     | Source "./nptl/pthread_kill.c", line 78, in __pthread_kill_implementation
+[ros2_control_node-5]       Source "./nptl/pthread_kill.c", line 44, in __pthread_kill [0x72d6ea6969fc]
+[ros2_control_node-5] Aborted (Signal sent by tkill() 14396 1000)
+[move_group-1] [INFO] [1752511136.764091930] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0446188 seconds
+[move_group-1] [INFO] [1752511136.764158387] [moveit_robot_model.robot_model]: Loading robot model 'rehab_arm_robot'...
+[move_group-1] [INFO] [1752511136.764175021] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-1] [INFO] [1752511136.849813777] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-1] [INFO] [1752511136.849952861] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-1] [INFO] [1752511136.850439717] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-1] [INFO] [1752511136.850694876] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-1] [INFO] [1752511136.850709296] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-1] [INFO] [1752511136.850855144] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-1] [INFO] [1752511136.850865684] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-1] [INFO] [1752511136.851030039] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-1] [INFO] [1752511136.851208928] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-1] [WARN] [1752511136.851717018] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-1] [ERROR] [1752511136.851729085] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-1] [INFO] [1752511136.903905970] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[spawner-6] [INFO] [1752511136.919148335] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-2] [INFO] [1752511136.924756255] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-2] [INFO] [1752511136.924891254] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[move_group-1] [INFO] [1752511136.925203070] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-1] [INFO] [1752511136.927788438] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1752511136.927803572] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1752511136.927806656] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1752511136.927826610] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1752511136.927835482] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1752511136.927838630] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1752511136.927845288] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1752511136.927848195] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was not set. Using default value: 0.020000
+[move_group-1] [INFO] [1752511136.927856569] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1752511136.927863118] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1752511136.927866500] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1752511136.927868398] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1752511136.927870344] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1752511136.927872150] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1752511136.927874174] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [FATAL] [1752511136.930953499] [moveit_ros.trajectory_execution_manager]: Parameter '~moveit_controller_manager' not specified. This is needed to identify the plugin to use for interacting with controllers. No paths can be executed.
+[move_group-1] [ERROR] [1752511136.930972080] [moveit_ros.trajectory_execution_manager]: Failed to reload controllers: `controller_manager_` does not exist.
+[move_group-1] Stack trace (most recent call last):
+[move_group-1] #10   Object "", at 0xffffffffffffffff, in 
+[move_group-1] #9    Object "/home/dat/ws_moveit2/build/moveit_ros_move_group/move_group", at 0x608ef9bb8eb4, in _start
+[rviz2-2] [INFO] [1752511136.941553179] [rviz2]: Stereo is NOT SUPPORTED
+[spawner-7] [INFO] [1752511136.954799298] [spawner_rehab_arm_moveit_controller]: waiting for service /controller_manager/list_controllers to become available...
+[move_group-1] #8    Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x72ced9429e3f]
+[move_group-1] #7    Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x72ced9429d8f]
+[move_group-1] #6    Object "/home/dat/ws_moveit2/build/moveit_ros_move_group/move_group", at 0x608ef9bb81f3, in main
+[move_group-1] #5    Object "/home/dat/ws_moveit2/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.9", at 0x72ceda08eda0, in moveit_cpp::MoveItCpp::MoveItCpp(std::shared_ptr<rclcpp::Node> const&, moveit_cpp::MoveItCpp::Options const&)
+[move_group-1] #4    Object "/home/dat/ws_moveit2/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x72ced92d5736, in trajectory_execution_manager::TrajectoryExecutionManager::TrajectoryExecutionManager(std::shared_ptr<rclcpp::Node> const&, std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<planning_scene_monitor::CurrentStateMonitor> const&)
+[move_group-1] #3    Object "/home/dat/ws_moveit2/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x72ced92d4387, in trajectory_execution_manager::TrajectoryExecutionManager::initialize()
+[move_group-1] #2    Object "/home/dat/ws_moveit2/build/moveit_ros_move_group/move_group", at 0x608ef9bbf7b9, in bool rclcpp::Node::get_parameter<bool>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool&) const
+[move_group-1] #1    Object "/home/dat/ws_moveit2/build/moveit_ros_move_group/move_group", at 0x608ef9bbe42d, in rclcpp::extend_name_with_sub_namespace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[move_group-1] #0    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x72ced994eba4, in std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
+[move_group-1] Segmentation fault (Address not mapped to object [0x348])
+[rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+[ERROR] [ros2_control_node-5]: process has died [pid 14396, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --log-level debug --ros-args --params-file /tmp/launch_params_9umw9mf_ --params-file /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/config/ros2_controllers.yaml'].
+[ERROR] [move_group-1]: process has died [pid 14388, exit code -11, cmd '/home/dat/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group --ros-args --log-level info --ros-args --params-file /tmp/launch_params_b2j88f76'].
+[rviz2-2] [ERROR] [1752511140.034040526] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-2] [INFO] [1752511140.050252298] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[rviz2-2] [INFO] [1752511140.121910674] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0267222 seconds
+[rviz2-2] [INFO] [1752511140.122018814] [moveit_robot_model.robot_model]: Loading robot model 'rehab_arm_robot'...
+[rviz2-2] [INFO] [1752511140.122034089] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[rviz2-2] [INFO] [1752511140.216558043] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-2] [INFO] [1752511140.217204248] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[rviz2-2] [INFO] [1752511140.252451025] [interactive_marker_display_108661784741232]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-2] [INFO] [1752511140.261035773] [interactive_marker_display_108661784741232]: Sending request for interactive markers
+[rviz2-2] [INFO] [1752511140.281132078] [interactive_marker_display_108661784741232]: Service response received for initialization
+[rviz2-2] [INFO] [1752511145.257321001] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Failed to call service get_planning_scene, have you launched move_group or called psm.providePlanningSceneService()?
+[rviz2-2] [INFO] [1752511145.257468640] [moveit_ros_visualization.motion_planning_frame]: group arm_group
+[rviz2-2] [INFO] [1752511145.257485375] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'arm_group' in namespace ''
+[spawner-6] [WARN] [1752511146.934191849] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-6] [INFO] [1752511146.934934074] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-7] [WARN] [1752511146.969925159] [spawner_rehab_arm_moveit_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-7] [INFO] [1752511146.970250577] [spawner_rehab_arm_moveit_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-6] [WARN] [1752511156.949739110] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-6] [INFO] [1752511156.950473773] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-7] [WARN] [1752511156.985963547] [spawner_rehab_arm_moveit_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-7] [INFO] [1752511156.986697958] [spawner_rehab_arm_moveit_controller]: waiting for service /controller_manager/list_controllers to become available...
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[static_transform_publisher-3] [INFO] [1752511158.928908890] [rclcpp]: signal_handler(signum=2)
+[rviz2-2] [INFO] [1752511158.928929625] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-4] [INFO] [1752511158.928927276] [rclcpp]: signal_handler(signum=2)
+[rviz2-2] [ERROR] [1752511158.929687041] [rviz2.rclcpp_action]: Error in destruction of rcl action client handle: action client implementation is invalid, at ./src/rcl_action/action_client.c:472
+[rviz2-2] terminate called without an active exception
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 14392]
+[INFO] [robot_state_publisher-4]: process has finished cleanly [pid 14394]
+[INFO] [spawner-7]: process has finished cleanly [pid 14400]
+[INFO] [spawner-6]: process has finished cleanly [pid 14398]
+[ERROR] [rviz2-2]: process has died [pid 14390, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/config/moveit.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_wwuqq035 --params-file /tmp/launch_params_t7j4s2yr --params-file /tmp/launch_params_1e98lto9 --params-file /tmp/launch_params_mvyy9ie3'].
+[?2004h]0;dat@dat-ASUS: ~/Workspace/3dof_rehab_arm[01;32mdat@dat-ASUS[00m:[01;34m~/Workspace/3dof_rehab_arm[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-07-14 23:39:23+07:00 [COMMAND_EXIT_CODE="0"]

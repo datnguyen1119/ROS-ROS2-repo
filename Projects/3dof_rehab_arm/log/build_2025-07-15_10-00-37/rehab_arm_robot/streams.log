@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.057s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.068s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot
+[0.078s] -- Install configuration: ""
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/lower_arm_link.STL
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/base_link.STL
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/shoulder_link.STL
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/upper_arm_link.STL
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/fake_hand_link.STL
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.csv
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.urdf.xacro
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.urdf
+[0.078s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/config
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/config/joint_names_rehab_arm_robot.yaml
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/environment/path.sh
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/environment/path.dsv
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/local_setup.bash
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/local_setup.sh
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/local_setup.zsh
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/local_setup.dsv
+[0.079s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.dsv
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/ament_index/resource_index/packages/rehab_arm_robot
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/cmake/rehab_arm_robotConfig.cmake
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/cmake/rehab_arm_robotConfig-version.cmake
+[0.079s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.xml
+[0.080s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/rehab_arm_robot

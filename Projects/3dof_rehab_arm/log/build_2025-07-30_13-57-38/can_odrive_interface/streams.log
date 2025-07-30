@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.118s] [ 10%] [32mBuilding CXX object CMakeFiles/can_odrive_interface.dir/src/odrive_interface.cpp.o[0m
+[3.446s] [ 20%] [32m[1mLinking CXX shared library libcan_odrive_interface.so[0m
+[3.551s] [ 20%] Built target can_odrive_interface
+[3.588s] [ 30%] [32mBuilding CXX object CMakeFiles/torque_node.dir/test/test_torque.cpp.o[0m
+[3.591s] [ 60%] [32mBuilding CXX object CMakeFiles/velocity_node.dir/test/test_velocity.cpp.o[0m
+[3.591s] [ 60%] [32mBuilding CXX object CMakeFiles/position_node.dir/test/test_position.cpp.o[0m
+[3.592s] [ 60%] [32mBuilding CXX object CMakeFiles/read_encoder_node.dir/test/test_read_encoder.cpp.o[0m
+[6.250s] [ 70%] [32m[1mLinking CXX executable velocity_node[0m
+[6.354s] [ 70%] Built target velocity_node
+[6.683s] [ 80%] [32m[1mLinking CXX executable torque_node[0m
+[6.787s] [ 80%] Built target torque_node
+[10.336s] [ 90%] [32m[1mLinking CXX executable position_node[0m
+[10.640s] [ 90%] Built target position_node
+[10.741s] [100%] [32m[1mLinking CXX executable read_encoder_node[0m
+[11.024s] [100%] Built target read_encoder_node
+[11.034s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[11.036s] Invoking command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface
+[11.043s] -- Install configuration: ""
+[11.043s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.sh
+[11.044s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.dsv
+[11.044s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/libcan_odrive_interface.so
+[11.044s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/libcan_odrive_interface.so" to ""
+[11.045s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/velocity_node
+[11.045s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/velocity_node" to ""
+[11.046s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node
+[11.048s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node" to ""
+[11.048s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/torque_node
+[11.049s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/torque_node" to ""
+[11.049s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/read_encoder_node
+[11.051s] -- Set runtime path of "/home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/read_encoder_node" to ""
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface/odrive_interface.hpp
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/package_run_dependencies/can_odrive_interface
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/parent_prefix_path/can_odrive_interface
+[11.051s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.sh
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.dsv
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.sh
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.dsv
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.bash
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.sh
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.zsh
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.dsv
+[11.052s] -- Installing: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/packages/can_odrive_interface
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig.cmake
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig-version.cmake
+[11.052s] -- Up-to-date: /home/dat/Workspace/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.xml
+[11.054s] Invoked command in '/home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dat/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/dat/Workspace/3dof_rehab_arm/build/can_odrive_interface
