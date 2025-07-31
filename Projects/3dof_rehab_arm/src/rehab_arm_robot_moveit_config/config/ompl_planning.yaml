@@ -174,7 +174,7 @@ arm_group:
     - SPARStwokConfigDefault
     - TrajOptDefault
     - JokeRRTConfigDefault
-  projection_evaluator: joints(joint0,joint1,joint2,joint3)
+  projection_evaluator: joints(shoulder_joint,elbow_joint)
   longest_valid_segment_fraction: 0.005
 # panda_arm_hand:
 #   planner_configs:

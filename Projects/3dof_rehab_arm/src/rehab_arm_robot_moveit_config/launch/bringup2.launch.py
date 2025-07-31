@@ -5,6 +5,7 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
+import yaml
 
 def generate_launch_description():
 
@@ -28,18 +29,39 @@ def generate_launch_description():
         )
         .robot_description_semantic(file_path="config/rehab_arm_robot.srdf")
         .trajectory_execution(file_path="config/ros2_controllers.yaml")
+        # .moveit_controller(file_path="config/moveit_controllers.yaml")
+        .planning_scene_monitor(publish_robot_description=True)
         .planning_pipelines(pipelines=["ompl"])
         .to_moveit_configs()
     )
 
-    # Nodes
+    #--- giai nen file moveit_controllers.yaml
+    # Đọc file moveit_controllers.yaml và lấy dict move_group
+    moveit_controller_yaml_file = os.path.join(
+        get_package_share_directory("rehab_arm_robot_moveit_config"),
+        "config",
+        "moveit_controllers.yaml"
+    )
+
+    with open(moveit_controller_yaml_file, 'r') as f:
+        # moveit_controller_yaml = yaml.safe_load(f)
+        full_yaml = yaml.safe_load(f)
+        moveit_controller_yaml = full_yaml.get("move_group", {})
+
     move_group_node = Node(
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
-        parameters=[moveit_config.to_dict()],
-        arguments=["--ros-args", "--log-level", "info"]
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+            moveit_config.planning_pipelines,
+            moveit_config.trajectory_execution,
+            moveit_controller_yaml  # ✅ truyền dict chứ không truyền string path
+        ]
     )
+    #---
 
     rviz_config = os.path.join(
         get_package_share_directory("rehab_arm_robot_moveit_config"),

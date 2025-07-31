@@ -126,3 +126,10 @@ sudo slcand ttyACM0 can0
 sudo ip link set can0 up
 candump can0
 
+# debug
+ros2 control list_controllers
+ros2 topic echo /joint_states
+ros2 action list
+ros2 topic list | grep follow
+
+

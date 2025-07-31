@@ -1,18 +1,18 @@
 # MoveIt uses this configuration for controller management
-
-moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
-
-moveit_simple_controller_manager:
-  controller_names:
-    - rehab_arm_moveit_controller
-
-  rehab_arm_moveit_controller:
-    type: FollowJointTrajectory
-    joints:
-      - base_joint
-      - shoulder_joint
-      - elbow_joint
-      - wrist_joint
-
-    action_ns: follow_joint_trajectory
-    default: true
+move_group:
+  moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+  
+  moveit_simple_controller_manager:
+    controller_names:
+      - rehab_arm_moveit_controller
+  
+    rehab_arm_moveit_controller:
+      type: FollowJointTrajectory
+      joints:
+        # - base_joint
+        - shoulder_joint
+        - elbow_joint
+        # - wrist_joint
+  
+      action_ns: follow_joint_trajectory
+      default: true
